@@ -1,0 +1,36 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: rgb(66, 163, 21);
+}
+
+.site-title {
+    color: rgb(255, 248, 248);
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+li:nth-child(odd) {
+    background-color: aquamarine;    
+}
+
+a:link {
+    text-decoration: none;
+    background-color: rgb(238, 167, 13);
+    border: 1px solid black;
+}
+
+a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(238, 167, 13);
+}
