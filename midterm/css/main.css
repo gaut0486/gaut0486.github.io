@@ -28,6 +28,7 @@ body {
 nav {
     text-transform: uppercase;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 nav a  {
@@ -37,7 +38,7 @@ nav a  {
     text-decoration: none;
     color: black;
     border-right: 1px solid black;
-    width: 33%;
+    width: 32%;
 }
 
 /* removes right border for last nav item */
@@ -46,4 +47,126 @@ nav a:last-child {
 }
 
 
-/* main article  */
+/* reduces margins below header/nav */
+
+.body_wrapper {
+    margin: 1%;
+}
+
+
+/* main content section  */
+
+.main_body {
+    color: black;
+    max-width: 100%;
+
+}
+
+
+/* first article */
+.first_article {
+    width: 0 auto;
+    padding-bottom: 1rem;
+}
+.first_article h2 {
+    font-size: 1.875rem;
+    font-weight:500;
+    margin-bottom: 12px;
+}
+
+.first_article img {
+        max-width: 205px;
+        float: left;
+        padding-bottom: 19.2px;
+        margin-right: 1rem;
+}
+
+.first_article p {
+    color: black;
+    font-size: 1.09rem;
+    font-weight: 400;
+    padding-top: 0.2rem;
+}
+
+.first_article p:after {
+    clear: left;
+}
+
+
+
+/* second article */
+
+.second_article {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.second_article h3 {
+    font-size: 1.50rem;
+}
+
+
+.facts_list {
+    padding-top: 0.5rem;
+    list-style-type: disc;
+    margin-left: 1rem;
+}
+
+
+/* contact form with heading */
+
+.contact_wrapper {
+    margin-bottom: 11rem;
+}
+
+.contact_wrapper h3 {
+    font-size: 1.50rem;
+    margin-bottom: 1rem;
+}
+
+.contactform {
+    border: black solid;
+}
+
+
+.contactform form {
+    margin-top: 0.5rem;
+    padding: 1rem
+}
+
+
+
+.contactform label {
+    margin-top: 1rem;
+
+}
+.contactform input {
+    margin: 1rem 1rem 1rem 0rem;
+    width: 100%;
+    border: none;
+
+}
+
+
+
+
+
+
+.contactform button {
+    display: block;
+    padding: 6px 7px;
+    background-color: #d4e9e7;
+    margin: 0.5rem;
+    border: 1px solid black;
+}
+
+
+
+/* footer */
+
+footer {
+    margin-top: 1rem;
+    border: black solid;
+    padding: 4%;
+    text-align: right;
+}
