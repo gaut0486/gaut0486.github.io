@@ -19,7 +19,7 @@
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Story</a>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
 <!-- Main article Text -->
@@ -45,10 +45,11 @@
                 </article>
             </div>
 <!-- Contact Form -->
-            <section class="contact_wrapper">
+            <section class="contact_form_wrapper" id="contact">
                 <h3>Contact to learn more</h3>
                 <section class="contactform">
                     <form action="thanks.html" method="get">
+
                         <label for="name">Your Name</label>
                         <input id="name" type="text" name="name" required>
 
@@ -58,9 +59,9 @@
                         <label for="message">Your Message</label>
                         <textarea id="message" required></textarea>
 
-                        <h4>Would you like to visit the starfish?</h4>
+                        <h4 class="contact_form_question">Would you like to visit the starfish?</h4>
                         <label for="yes">Yes</label>
-                        <input type="radio" id="yes" name="visit" value="yes" checked>
+                        <input class="radio" type="radio" id="yes" name="visit" value="yes">
 
                         <label for="no">No</label>
                         <input type="radio" id="no" name="visit" value="no">
