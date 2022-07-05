@@ -66,7 +66,7 @@ nav a:last-child {
 
 /* first article */
 .first_article {
-    width: 0 auto;
+    width: auto;
     padding-bottom: 1rem;
 }
 .first_article h2 {
